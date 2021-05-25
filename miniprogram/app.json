@@ -47,8 +47,8 @@
   "window": {
     "backgroundColor": "#fff",
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#ffd101",
-    "navigationBarTitleText": "中大猫谱",
+    "navigationBarBackgroundColor": "#69075A",
+    "navigationBarTitleText": "南哪儿猫",
     "navigationBarTextStyle": "black"
   },
   "sitemapLocation": "sitemap.json"

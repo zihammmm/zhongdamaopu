@@ -36,8 +36,8 @@
     "packNpmRelationList": [],
     "minifyWXSS": true
   },
-  "appid": "wx443c06310f82362d",
-  "projectname": "%E4%B8%AD%E5%A4%A7%E7%8C%AB%E8%B0%B1",
+  "appid": "wxee0a4e405afd8cae",
+  "projectname": "南哪儿猫",
   "libVersion": "2.10.4",
   "simulatorType": "wechat",
   "simulatorPluginLibVersion": {},

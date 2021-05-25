@@ -2,7 +2,7 @@
 <!-- <text>miniprogram/pages/info/info.wxml</text> -->
 <view class='mina-info'>
   <image src='../../images/zdmp_logo.png'></image>
-  <view class='title'>中大猫谱</view>
+  <view class='title'>南哪儿猫</view>
   <view class='dev'><text>{{version ? version + "\n" : ""}} 拍照记录校园内猫猫的成长轨迹</text></view>
 </view>
 
