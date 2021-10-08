@@ -37,7 +37,7 @@ Page({
    */
   onShareAppMessage: function () {
     return {
-      title: '信息反馈 - 中大猫谱'
+      title: '信息反馈 - 南哪儿猫'
     }
   }
 })

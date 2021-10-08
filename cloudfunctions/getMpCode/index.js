@@ -31,7 +31,7 @@ exports.main = async (event, context) => {
     const mpfile = await cloud.uploadFile({
       cloudPath: 'mpcode/' + cat_id + '.png', // 上传至云端的路径
       fileContent: result.buffer,
-    })
+    })/*  */
 
     await db.collection('cat').doc(cat_id).update({
       data: { mpcode: mpfile.fileID }

@@ -24,7 +24,7 @@ Page({
     birth_date: '2008-01-01',
     photos: [],
     set_all: {},
-    canUpload: false,
+    canUpload: true,
   },
 
   /**
@@ -72,8 +72,8 @@ Page({
   onShareAppMessage: function () {
     const pagesStack = getCurrentPages();
     const path = getCurrentPath(pagesStack);
-    console.log(shareTo(this.data.cat.name + ' - 中大猫谱', path))
-    return shareTo('来给' + this.data.cat.name + '添加照片 - 中大猫谱', path);
+    console.log(shareTo(this.data.cat.name + ' - 南哪儿猫', path))
+    return shareTo('来给' + this.data.cat.name + '添加照片 - 南哪儿猫', path);
   },
 
   getUInfo() {
@@ -113,7 +113,7 @@ Page({
 
   // 点击单个上传
   async uploadSingleClick(e) {
-    await requestNotice('verify');
+    // await requestNotice('verify');
     wx.showLoading({
       title: '正在上传...',
       mask: true,
@@ -153,7 +153,7 @@ Page({
       });
       return;
     }
-    await requestNotice('verify');
+    //await requestNotice('verify');
     for (let i = 0; i < photos.length; ++i) {
       wx.showLoading({
         title: '正在上传(' + (photos.length - i) + ')',

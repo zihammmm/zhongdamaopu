@@ -73,13 +73,13 @@ Page({
    */
   onShareAppMessage: function () {
     return {
-      title: '关于 - 中大猫谱'
+      title: '关于 - 南哪儿猫'
     }
   },
 
   onShareTimeline:function () {
     return {
-      title: '中大猫谱 - 记录校园身边的猫咪',
+      title: '南哪儿猫',
     }
   },
 

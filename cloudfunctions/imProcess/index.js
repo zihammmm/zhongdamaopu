@@ -43,7 +43,7 @@ exports.main = async (event, context) => {
     )
     // 创建水印图
     let userInfo = photo.userInfo;
-    let watermark = text2png('中大猫谱@' + (photo.photographer || userInfo.nickName), {
+    let watermark = text2png('南哪儿猫@' + (photo.photographer || userInfo.nickName), {
       font: Math.round(metadata.height * 0.03) + 'px FZHei',
       color: 'white'
     });

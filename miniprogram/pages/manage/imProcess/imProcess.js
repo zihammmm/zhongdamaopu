@@ -204,7 +204,7 @@ Page({
     const userInfo = photo.userInfo;
     ctx.setFontSize(draw_height * 0.03);
     ctx.setFillStyle('white');
-    ctx.fillText('中大猫谱@' + (photo.photographer || userInfo.nickName), 30, draw_height - (draw_height * 0.03));
+    ctx.fillText('南哪儿猫@' + (photo.photographer || userInfo.nickName), 30, draw_height - (draw_height * 0.03));
     
 
     ctx.draw(false, function () {
@@ -245,7 +245,7 @@ Page({
     // 写上水印
     ctx.setFontSize(draw_height * 0.03);
     ctx.setFillStyle('white');
-    ctx.fillText('中大猫谱@' + (photo.photographer || userInfo.nickName), 30, draw_height - (draw_height * 0.03));
+    ctx.fillText('南哪儿猫@' + (photo.photographer || userInfo.nickName), 30, draw_height - (draw_height * 0.03));
     ctx.draw(false, function () {
       // 变成图片显示
       wx.canvasToTempFilePath({

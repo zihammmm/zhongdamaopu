@@ -46,7 +46,7 @@ Page({
     showHoverHeader: false, // 显示浮动的相册标题
     hideBgBlock: false, // 隐藏背景黄块
     canvas: {}, // 画布的宽高
-    canUpload: false, // 是否可以上传照片
+    canUpload: true, // 是否可以上传照片（默认为true）
     showGallery: false,
     imgUrls: [],
     currentImg: 0,
@@ -67,14 +67,7 @@ Page({
       page_settings = settings;
       // 启动加载
       that.loadCat();
-      // 是否开启上传功能
       
-      
-      checkCanUpload().then(res => {
-        that.setData({
-          canUpload: res
-        });
-      })
     })
     
     // 先判断一下这个用户在12小时之内有没有点击过这只猫
@@ -154,17 +147,9 @@ Page({
   onShareAppMessage: function () {
     const pagesStack = getCurrentPages();
     const path = getCurrentPath(pagesStack);
-    console.log(shareTo(this.data.cat.name + ' - 中大猫谱', path))
-    return shareTo(this.data.cat.name + ' - 中大猫谱', path);
+    console.log(shareTo(this.data.cat.name + ' - 南哪儿猫', path))
+    return shareTo(this.data.cat.name + ' - 南哪儿猫', path);
   },
-
-  // onShareTimeline:function () {
-  //   console.log('cat_id=' + this.data.cat._id);
-  //   return {
-  //     title: '中大猫谱 - 记录校园身边的猫咪',
-  //     // query: 'cat_id=' + this.data.cat._id
-  //   }
-  // },
 
   swiperLast(e) {
     const current = e.detail.current;

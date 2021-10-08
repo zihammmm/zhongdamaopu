@@ -33,7 +33,7 @@ Page({
    */
   onShareAppMessage: function () {
     return {
-      title: '科普 - 中大猫谱'
+      title: '科普 - 南哪儿猫'
     }
   },
 

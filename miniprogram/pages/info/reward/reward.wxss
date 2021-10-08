@@ -12,11 +12,13 @@
   justify-content: center;
   align-content: center;
   flex-wrap: wrap;
+  color: white;
 }
 
 .block .title {
   font-size: 28rpx;
   font-weight: 500;
+  color: white;
   background-color: var(--color-primary);
   display: inline-block;
   padding: 10rpx;
@@ -49,6 +51,7 @@ button {
   padding: 16rpx 30rpx;
   border: 1rpx solid var(--color-gray-max);
   border-radius: 25rpx;
+  color: white;
   /* TODO:hover-class */
 }
 

@@ -109,6 +109,7 @@ scroll-view {
   line-height: 30rpx;
   text-align: center;
   background-color: var(--color-primary);
+  color: white;
   margin-left: 8rpx;
 }
 

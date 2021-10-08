@@ -21,14 +21,14 @@
     "compileHotReLoad": false,
     "useMultiFrameRuntime": true,
     "useApiHook": true,
-    "useApiHostProcess": false,
+    "useApiHostProcess": true,
     "babelSetting": {
       "ignore": [],
       "disablePlugins": [],
       "outputPath": ""
     },
     "enableEngineNative": false,
-    "useIsolateContext": true,
+    "useIsolateContext": false,
     "useCompilerModule": false,
     "userConfirmedUseCompilerModuleSwitch": false,
     "userConfirmedBundleSwitch": false,
@@ -37,7 +37,7 @@
     "minifyWXSS": true
   },
   "appid": "wxee0a4e405afd8cae",
-  "projectname": "南哪儿猫",
+  "projectname": "%E5%8D%97%E5%93%AA%E5%84%BF%E7%8C%AB",
   "libVersion": "2.10.4",
   "simulatorType": "wechat",
   "simulatorPluginLibVersion": {},

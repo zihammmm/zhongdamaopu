@@ -38,7 +38,7 @@ Page({
    */
   onShareAppMessage: function () {
     return {
-      title: '拍照月榜 - 中大猫谱'
+      title: '拍照月榜 - 南哪儿猫'
     }
   },
 

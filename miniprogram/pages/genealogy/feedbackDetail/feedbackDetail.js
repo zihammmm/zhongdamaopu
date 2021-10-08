@@ -47,8 +47,8 @@ Page({
   onShareAppMessage: function () {
     const pagesStack = getCurrentPages();
     const path = getCurrentPath(pagesStack);
-    console.log(shareTo(this.data.cat.name + ' - 中大猫谱', path))
-    return shareTo('来给' + this.data.cat.name + '反馈信息 - 中大猫谱', path);
+    console.log(shareTo(this.data.cat.name + ' - 南哪儿猫', path))
+    return shareTo('来给' + this.data.cat.name + '反馈信息 - 南哪儿猫', path);
   },
 
   getUInfo() {

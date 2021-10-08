@@ -98,6 +98,7 @@ swiper-item image {
 }
 
 .tags .tag {
+  color: white;
   font-size: 20rpx;
   height: 40rpx;
   box-sizing: border-box;
@@ -109,7 +110,7 @@ swiper-item image {
 
 
 .tags .to_star {
-  background-color: var(--color-gray-light);
+  background-color: var(--color-primary);
 }
 
 .tags .mpcode {
@@ -169,6 +170,7 @@ swiper-item image {
   /* 文案（作为按钮略长）、位置、配色（和不能点击的tag相似）有待考虑 */
   /* position: absolute;
   right: 60rpx; */
+  color:white;
   font-size: 20rpx;
   height: 40rpx;
   box-sizing: border-box;

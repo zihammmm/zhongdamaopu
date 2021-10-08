@@ -4,7 +4,7 @@
 
 <view class='cen-block unAuth' wx:if='{{!userInfo}}'>
   <view class='title'>请授权查看自己的排名</view>
-  <button bindtap='getUInfo'>点击授权</button>
+  <button style="color: white;" bindtap='getUInfo'>点击授权</button>
 </view>
 <view class='cen-block my' wx:else>
   <view class='text left'>

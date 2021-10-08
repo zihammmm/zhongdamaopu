@@ -26,20 +26,20 @@
     "list": [
       {
         "pagePath": "pages/genealogy/genealogy",
-        "iconPath": "./images/tabs/default/cat.png",
-        "selectedIconPath": "./images/tabs/active/cat.png",
+        "iconPath": "./images/tabs/default/cat_book.png",
+        "selectedIconPath": "./images/tabs/active/cat_book.jpg",
         "text": "猫谱"
       },
       {
         "pagePath": "pages/science/science",
         "iconPath": "./images/tabs/default/sci.png",
-        "selectedIconPath": "./images/tabs/active/sci.png",
+        "selectedIconPath": "./images/tabs/active/sci.jpg",
         "text": "科普"
       },
       {
         "pagePath": "pages/info/info",
-        "iconPath": "./images/tabs/default/info.png",
-        "selectedIconPath": "./images/tabs/active/info.png",
+        "iconPath": "./images/tabs/default/about.png",
+        "selectedIconPath": "./images/tabs/active/about.jpg",
         "text": "关于"
       }
     ]
@@ -49,7 +49,7 @@
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#69075A",
     "navigationBarTitleText": "南哪儿猫",
-    "navigationBarTextStyle": "black"
+    "navigationBarTextStyle": "white"
   },
   "sitemapLocation": "sitemap.json"
 }

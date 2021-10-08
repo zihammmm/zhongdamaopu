@@ -4,7 +4,7 @@
     <view class='userInfo'>
       <image src='../../../images/user.png'></image>
       <view>
-        <text>[等待授权]\n---准备为「<text style="font-weight:600;">{{cat? cat.name: '中大猫谱'}}</text>」反馈信息</text>
+        <text>[等待授权]\n---准备为「<text style="font-weight:600;">{{cat? cat.name: '南哪儿猫'}}</text>」反馈信息</text>
       </view>
     </view>
     <button class='long primary' bindtap='getUInfo'>点击授权</button>
@@ -14,7 +14,7 @@
     <view class='userInfo'>
       <image src='{{user.userInfo.avatarUrl}}'></image>
       <view>
-        <text>{{user.userInfo.nickName}}\n---正在为「<text style="font-weight:600;">{{cat? cat.name: '中大猫谱'}}</text>」反馈信息</text>
+        <text>{{user.userInfo.nickName}}\n---正在为「<text style="font-weight:600;">{{cat? cat.name: '南哪儿猫'}}</text>」反馈信息</text>
       </view>
     </view>
     <view class='inputColumns'>

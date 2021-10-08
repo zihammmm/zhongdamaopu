@@ -62,7 +62,7 @@ Page({
    */
   onShareAppMessage: function () {
     return {
-      title: '开发团队 - 中大猫谱'
+      title: '开发团队 - 南哪儿猫'
     }
   },
 
