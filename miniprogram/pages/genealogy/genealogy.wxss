@@ -174,7 +174,7 @@ scroll-view {
   text-align: left;
   background-color: var(--color-primary);
   border-color: var(--color-primary-dark);
-  color: var(--color-black-light);
+  color: #ffffff;
   border-radius: 0 10rpx 10rpx 0;
   padding: 10rpx;
   font-size: 22rpx;

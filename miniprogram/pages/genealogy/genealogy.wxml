@@ -89,14 +89,12 @@
         </view>
       </view>
     </view>
-    <view wx:if="{{adStep && (index+1)%adStep===0}}" class="card-ad {{ad_show['ad-'+(index+1)]? '': 'hidden'}}">
-      <ad unit-id="adunit-9a7dcb84fe2c4db1" ad-intervals="120"
-      bindload="adLoad" binderror="adError" bindclose="adClose" data-ad_id='ad-{{(index+1)}}'></ad>
-    </view>
     <!-- 嵌套card-ad时，card-over设置overflow:hidden-安卓不可见;独立ad时，需设置over
      -->
     <!-- <ad wx:if="{{adStep && (index+1)%adStep===0}}" class="card-ad" unit-id="adunit-9a7dcb84fe2c4db1" ad-intervals="120"
       bindload="adLoad" binderror="adError" bindclose="adClose" data-ad_id='ad-{{(index+1)}}'></ad> -->
+        <ad-custom wx:if="{{adInterval && (index+1)%adInterval==0}}" unit-id="adunit-40d427fa079998a1"></ad-custom>
+
   </block>
 
 <view class='loading' wx:if='{{!loadnomore}}'>

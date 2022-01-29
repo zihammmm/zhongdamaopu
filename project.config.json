@@ -29,12 +29,14 @@
     },
     "enableEngineNative": false,
     "useIsolateContext": false,
-    "useCompilerModule": false,
-    "userConfirmedUseCompilerModuleSwitch": false,
     "userConfirmedBundleSwitch": false,
     "packNpmManually": false,
     "packNpmRelationList": [],
-    "minifyWXSS": true
+    "minifyWXSS": true,
+    "disableUseStrict": false,
+    "showES6CompileOption": false,
+    "useCompilerPlugins": false,
+    "minifyWXML": true
   },
   "appid": "wxee0a4e405afd8cae",
   "projectname": "%E5%8D%97%E5%93%AA%E5%84%BF%E7%8C%AB",

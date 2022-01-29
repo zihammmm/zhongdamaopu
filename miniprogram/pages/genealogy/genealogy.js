@@ -43,6 +43,20 @@ Page({
 
     // 广告是否展示
     ad_show: {},
+
+    adInterval: 0,
+  },
+
+  async getConfig(key, defaultValue) {
+    let res = await wx.cloud.callFunction({
+      name: 'getConfig',
+      data: {
+        id: key,
+        defaultValue: defaultValue
+      }
+    })
+    console.log('getConfig: ' + res.result.value)
+    return res.result.value
   },
 
   /**
@@ -78,6 +92,13 @@ Page({
     }
     // 开始加载页面
     const that = this;
+  
+    that.getConfig('showAdInterval', 0).then(res => {
+        that.setData({
+          adInterval: res
+        })
+    })
+
     getGlobalSettings('genealogy').then(settings => {
       // 先把设置拿到
       catsStep = settings['catsStep'];

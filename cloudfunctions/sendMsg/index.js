@@ -4,11 +4,10 @@ const cloud = require('wx-server-sdk');
 cloud.init();
 const db = cloud.database();
 const _ = db.command;
-const verifyTplId = 'AtntuAUGnzoBumjfmGB8Yyc-67FUxRH5Cw7bnEYFCXo'; //审核结果通知模板Id
-const feedbackTplId = 'IeKS7nPSsBy62REOKiDC2zuz_M7RbKwR97ZiIy_ocmw'; // 反馈回复结果模板Id
-const notifyVerifyTplId = 'jxcvND-iLSQZLZhlHD2A91gY0tLSfzyYc3bl39bxVuk' // 提醒审核模版Id
-const notifyChkFeedbackTplId = 'jxcvND-iLSQZLZhlHD2A97jP3fm_FWV4wL_GFUcLxcQ' // 提醒处理反馈模版Id
-// jxcvND-iLSQZLZhlHD2A91ZfBLp0Kexv569MzTxa3zk
+const verifyTplId = 'nL_jxxqauXyl5knCQpfM0yVIFQp5uKvSsSOTHIH__PQ'; //审核结果通知模板Id
+const feedbackTplId = '6Z_QwuL-88UZmv0VLZinasgc8tk7RKKNT4jclIYAHx0'; // 反馈回复结果模板Id
+const notifyVerifyTplId = 'ii9KUv3GuQPLNpJPThnyi70TpKe8lkPMuEZKPybQB0E' // 提醒审核模版Id
+const notifyChkFeedbackTplId = 'ii9KUv3GuQPLNpJPThnyi4b0NZTlVjGHH_v03aAhOvg' // 提醒处理反馈模版Id
 
 async function arrayResort(oriArray) {
   var resortedArray = [];

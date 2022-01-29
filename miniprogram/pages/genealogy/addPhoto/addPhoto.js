@@ -113,7 +113,7 @@ Page({
 
   // 点击单个上传
   async uploadSingleClick(e) {
-    // await requestNotice('verify');
+    await requestNotice('verify');
     wx.showLoading({
       title: '正在上传...',
       mask: true,
@@ -153,7 +153,7 @@ Page({
       });
       return;
     }
-    //await requestNotice('verify');
+    await requestNotice('verify');
     for (let i = 0; i < photos.length; ++i) {
       wx.showLoading({
         title: '正在上传(' + (photos.length - i) + ')',

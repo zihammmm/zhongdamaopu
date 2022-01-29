@@ -19,6 +19,13 @@
 <view class='block'>
   <view class='title'>更新日志</view>
   <view class='desc'>
+    <view class='sub-title hl'>v1.1.0</view>
+    <text class='sub-detail'>
+    - 修复了一些已知问题
+    - 增加了广告位
+    - 增加消息订阅，可以在消息通知中收到回复
+    - 更新时间：2021/10/17
+    </text>
     <view class='sub-title hl'>v1.0.1</view>
     <text class='sub-detail'>
     - 修复了一些已知问题

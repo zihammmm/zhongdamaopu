@@ -22,7 +22,7 @@
     <view class="friend-link-text">{{item.name}}</view>
   </view>
 </view>
-
+<ad-custom unit-id="adunit-dc5ccf1b262ed946"></ad-custom>
 <block wx:if='{{showManager}}'><view class='block-name'>管理后台</view>
 <view class='option-box'>
   <view class="option" bindtap='clickbtn' data-to='/pages/manage/checkPhotos/checkPhotos'>

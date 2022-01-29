@@ -34,4 +34,8 @@ page {
   font-size: 34rpx;
 }
 
+.adContainer {
+  width: 90%;
+}
+
 @import '/packages/weui/weui-wxss/dist/style/weui.wxss'

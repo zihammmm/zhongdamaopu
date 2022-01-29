@@ -1,4 +1,6 @@
 {
-  "usingComponents": {},
+  "usingComponents": {
+    "t-button": "/path/to/tdesign-miniprogram/dist/button/index"
+  },
   "disableScroll": true
 }
